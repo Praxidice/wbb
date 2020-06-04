@@ -749,7 +749,12 @@
 			emoticon: {display: ':]', toggle: ';]', title: 'Emoticons', type: -1, icon: 'fire'},
 			settings: {display: '%', title: 'Settings', type: -1, icon: 'wrench'},
 			shortcut: {display: '?', title: 'Shortcuts', type: -1, icon: 'question-sign'},
-			erase: {display: '-', title: 'Delete message', type: -2, icon: 'remove-sign'}
+			erase: {display: '-', title: 'Delete message', type: -2, icon: 'remove-sign'},
+			macro1: {type: 4, tag: ['This is my macro test A', ''], display: 'A', title: 'Hover A'},
+			macro2: {type: 4, tag: ['This is my macro test B', ''], display: 'B', title: 'Hover B'},
+			macro3: {type: 4, tag: ['This is my macro test C', ''], display: 'C', title: 'Hover C'},
+			macro4: {type: 4, tag: ['This is my macro test D', ''], display: 'D', title: 'Hover D'},
+			macro5: {type: 4, tag: ['This is my macro test E', ''], display: 'E', title: 'Hover E'},
 		},
 		emoticons: {
 			// for gazelle-based sites make sure to filter any overlapping emoticons
@@ -770,7 +775,8 @@
 				['color', 'size'], ['gz_left', 'gz_center', 'gz_right'],
 				['#', '*'], ['url', 'img'], ['quote', 'pre', 'gz_src'], ['hide', 'mature'],
 				['artist', 'torrent', 'user', 'wiki', 'gz_rule'], ['tex', 'plain'],
-				[ 'erase'], ['emoticon', 'settings', 'shortcut']
+				[ 'erase'], ['emoticon', 'settings', 'shortcut'],
+				[ 'macro1', 'macro2', 'macro3', 'macro4', 'macro5']
 			]
 		},
 		shortcuts: {
